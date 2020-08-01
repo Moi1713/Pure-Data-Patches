@@ -1,0 +1,14 @@
+#N canvas 593 274 386 361 10;
+#X msg 99 63 bang;
+#X msg 99 130 1 1000;
+#X msg 166 163 0 1000;
+#X obj 99 224 line;
+#X floatatom 99 270 5 0 0 0 - - -;
+#X obj 166 106 delay 1500;
+#X text 184 136 Se ejecuta 1500ms despues;
+#X connect 0 0 1 0;
+#X connect 0 0 5 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 5 0 2 0;

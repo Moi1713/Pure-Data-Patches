@@ -1,0 +1,12 @@
+#N canvas 696 214 437 353 10;
+#X msg 111 94 222 1000;
+#X msg 198 129 0 500;
+#X msg 271 159 1;
+#X text 82 70 Msj: valor \, tiempo;
+#X text 172 92 Va al valor 222 en 1000ms;
+#X obj 179 197 line;
+#X floatatom 179 257 5 0 0 0 - - -;
+#X connect 0 0 5 0;
+#X connect 1 0 5 0;
+#X connect 2 0 5 0;
+#X connect 5 0 6 0;

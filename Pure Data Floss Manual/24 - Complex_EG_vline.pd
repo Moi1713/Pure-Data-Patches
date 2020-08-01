@@ -1,0 +1,23 @@
+#N canvas 656 96 503 533 10;
+#X msg 57 32 1 1000;
+#X msg 75 70 1 1000;
+#X msg 97 113 0;
+#X msg 108 224 stop;
+#X obj 57 280 vline~;
+#X obj 56 389 snapshot~;
+#X obj 79 353 metro 100;
+#X floatatom 56 448 5 0 0 0 - - -;
+#X obj 79 317 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X text 151 121 Msg: valor \, tiempo en que llega \, tiempo de espera
+para activar;
+#X msg 111 156 10 1000 \, 0 0 1000 \, 1 1000 3000;
+#X connect 0 0 4 0;
+#X connect 1 0 4 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 7 0;
+#X connect 6 0 5 0;
+#X connect 8 0 6 0;
+#X connect 10 0 4 0;
